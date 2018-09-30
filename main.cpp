@@ -84,8 +84,8 @@ private:
 };
 
 /**
- * @brief A program that prints the tring "Hello, World!" to the terminal and exits
- * @return 0
+ * @brief Run Game of Life on a 10x10 grid, printing current grid at each timestep
+ * @return 0 (success)
  */
 int main()
 {
