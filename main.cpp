@@ -30,7 +30,7 @@ public:
      * @brief Set the current grid to a specific configuration
      * @param g grid to be specified
      */
-    void setGrid(Grid &g) { std::copy(&g[0][0], &g[0][0] + N * M, &current_grid[0][0]); }
+    void setGrid(const Grid &g) { std::copy(&g[0][0], &g[0][0] + N * M, &current_grid[0][0]); }
 
     /**
      * @brief Receive a reference to the current grid
