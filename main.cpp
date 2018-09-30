@@ -105,8 +105,7 @@ int main()
     GOL::Grid glider_layout {{
          {false, true, false},
          {false, false, true},
-         {true,  true,  true},
-         {false, false, false}
+         {true,  true,  true}
     }};
     gol.setGrid(glider_layout);
     print_grid(gol);
